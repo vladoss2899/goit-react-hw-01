@@ -1,4 +1,3 @@
-// import css from "./Profile.css";
 import "./Profile.css";
 
 export default function Profile({
@@ -19,11 +18,11 @@ export default function Profile({
       <ul className="stats">
         <li className="items">
           <span>Followers</span>
-          <span className="itemsinformation"> {followers} </span>
+          <span className="itemsinformation">{followers}</span>
         </li>
         <li className="items">
           <span>Views</span>
-          <span className="itemsinformation"> {views} </span>
+          <span className="itemsinformation">{views}</span>
         </li>
         <li className="items">
           <span>Likes</span>
